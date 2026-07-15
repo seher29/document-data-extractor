@@ -14,6 +14,20 @@ plain Python (not the AI) to catch extraction errors.**
 
 ---
 ---
+## Tech Stack
+
+- Python 3.12
+- Groq API (Llama 3.3 70B)
+- pdfplumber — PDF text extraction
+- python-dotenv — environment config
+- pytest — testing
+
+## Features
+
+- Extracts structured data from invoices, receipts, and purchase orders
+- Independent Python validation layer (arithmetic + date checks)
+- Handles 6 distinct document layouts
+- Outputs clean, validated JSON per document
 
 ## Screenshots
 
