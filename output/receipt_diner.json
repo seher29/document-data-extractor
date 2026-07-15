@@ -1,0 +1,43 @@
+{
+  "source_file": "receipt_diner.pdf",
+  "extracted_data": {
+    "document_type": "receipt",
+    "vendor_name": "BLUE PLATE DINER",
+    "document_id": "4471",
+    "document_date": "2026-06-21",
+    "due_date": null,
+    "line_items": [
+      {
+        "description": "Grilled Salmon",
+        "quantity": 1,
+        "unit_price": 24.0,
+        "line_total": 24.0
+      },
+      {
+        "description": "Caesar Salad",
+        "quantity": 1,
+        "unit_price": 11.5,
+        "line_total": 11.5
+      },
+      {
+        "description": "Iced Tea",
+        "quantity": 2,
+        "unit_price": 3.25,
+        "line_total": 6.5
+      },
+      {
+        "description": "Cheesecake Slice",
+        "quantity": 1,
+        "unit_price": 8.0,
+        "line_total": 8.0
+      }
+    ],
+    "subtotal": 50.0,
+    "tax_amount": 0.0,
+    "total": 50.0
+  },
+  "validation": {
+    "valid": true,
+    "issues": []
+  }
+}

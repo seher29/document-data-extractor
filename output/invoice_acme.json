@@ -1,0 +1,43 @@
+{
+  "source_file": "invoice_acme.pdf",
+  "extracted_data": {
+    "document_type": "invoice",
+    "vendor_name": "ACME Industrial Supply Co.",
+    "document_id": "INV-2026-0447",
+    "document_date": "2026-06-03",
+    "due_date": "2026-07-03",
+    "line_items": [
+      {
+        "description": "Galvanized Steel Bolt (M10)",
+        "quantity": 500,
+        "unit_price": 0.42,
+        "line_total": 210.0
+      },
+      {
+        "description": "Industrial Hinge, Heavy Duty",
+        "quantity": 40,
+        "unit_price": 6.75,
+        "line_total": 270.0
+      },
+      {
+        "description": "Safety Gloves (Pair)",
+        "quantity": 60,
+        "unit_price": 3.2,
+        "line_total": 192.0
+      },
+      {
+        "description": "Epoxy Sealant, 500ml",
+        "quantity": 15,
+        "unit_price": 11.99,
+        "line_total": 179.85
+      }
+    ],
+    "subtotal": 851.85,
+    "tax_amount": 51.11,
+    "total": 902.96
+  },
+  "validation": {
+    "valid": true,
+    "issues": []
+  }
+}

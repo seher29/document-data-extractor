@@ -1,0 +1,25 @@
+{
+  "source_file": "invoice_saas.pdf",
+  "extracted_data": {
+    "document_type": "invoice",
+    "vendor_name": "Ledgerly Inc.",
+    "document_id": "LG-99213",
+    "document_date": "2026-06-15",
+    "due_date": "2026-06-29",
+    "line_items": [
+      {
+        "description": "Ledgerly Pro Plan - Annual Subscription (12 mo)",
+        "quantity": 1,
+        "unit_price": 1188.0,
+        "line_total": 1188.0
+      }
+    ],
+    "subtotal": 1188.0,
+    "tax_amount": null,
+    "total": 1188.0
+  },
+  "validation": {
+    "valid": true,
+    "issues": []
+  }
+}

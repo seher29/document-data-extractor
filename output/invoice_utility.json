@@ -1,0 +1,25 @@
+{
+  "source_file": "invoice_utility.pdf",
+  "extracted_data": {
+    "document_type": "invoice",
+    "vendor_name": "Cascade Power & Light",
+    "document_id": null,
+    "document_date": "2026-06-01",
+    "due_date": "2026-06-21",
+    "line_items": [
+      {
+        "description": "Electricity usage, May 2026",
+        "quantity": 1240,
+        "unit_price": 0.1129,
+        "line_total": 140.0
+      }
+    ],
+    "subtotal": 140.0,
+    "tax_amount": 7.0,
+    "total": 147.0
+  },
+  "validation": {
+    "valid": true,
+    "issues": []
+  }
+}

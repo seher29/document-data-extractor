@@ -1,0 +1,155 @@
+[
+  {
+    "source_file": "invoice_acme.pdf",
+    "extracted_data": {
+      "document_type": "invoice",
+      "vendor_name": "ACME Industrial Supply Co.",
+      "document_id": "INV-2026-0447",
+      "document_date": "2026-06-03",
+      "due_date": "2026-07-03",
+      "line_items": [
+        {"description": "Galvanized Steel Bolt (M10)", "quantity": 500, "unit_price": 0.42, "line_total": 210.00},
+        {"description": "Industrial Hinge, Heavy Duty", "quantity": 40, "unit_price": 6.75, "line_total": 270.00},
+        {"description": "Safety Gloves (Pair)", "quantity": 60, "unit_price": 3.20, "line_total": 192.00},
+        {"description": "Epoxy Sealant, 500ml", "quantity": 15, "unit_price": 11.99, "line_total": 179.85}
+      ],
+      "subtotal": 851.85,
+      "tax_amount": 51.11,
+      "total": 902.96
+    },
+    "validation": {"valid": true, "issues": []}
+  },
+  {
+    "source_file": "receipt_cornerstore.pdf",
+    "extracted_data": {
+      "document_type": "receipt",
+      "vendor_name": "Cornerstore Market",
+      "document_id": "88213",
+      "document_date": "2026-06-07",
+      "due_date": null,
+      "line_items": [
+        {"description": "Bottled Water 1L", "quantity": 2, "unit_price": 1.25, "line_total": 2.50},
+        {"description": "Whole Wheat Bread", "quantity": 1, "unit_price": 3.49, "line_total": 3.49},
+        {"description": "Bananas (lb)", "quantity": 3, "unit_price": 0.59, "line_total": 1.77},
+        {"description": "Peanut Butter Jar", "quantity": 1, "unit_price": 4.99, "line_total": 4.99},
+        {"description": "Paper Towels 2pk", "quantity": 1, "unit_price": 5.75, "line_total": 5.75}
+      ],
+      "subtotal": 18.50,
+      "tax_amount": null,
+      "total": 18.50
+    },
+    "validation": {"valid": true, "issues": []}
+  },
+  {
+    "source_file": "po_northwind.pdf",
+    "extracted_data": {
+      "document_type": "purchase_order",
+      "vendor_name": "Pacific Timber Supply",
+      "document_id": "PO-88291",
+      "document_date": "2026-05-11",
+      "due_date": "2026-05-25",
+      "line_items": [
+        {"description": "Kiln-Dried Pine 2x4x8", "quantity": 200, "unit_price": 4.15, "line_total": 830.00},
+        {"description": "Plywood Sheet 3/4in", "quantity": 60, "unit_price": 28.50, "line_total": 1710.00},
+        {"description": "Deck Screws, 5lb box", "quantity": 25, "unit_price": 14.25, "line_total": 356.25}
+      ],
+      "subtotal": 2896.25,
+      "tax_amount": 246.18,
+      "total": 3142.43
+    },
+    "validation": {"valid": true, "issues": []}
+  },
+  {
+    "source_file": "invoice_freelance.pdf",
+    "extracted_data": {
+      "document_type": "invoice",
+      "vendor_name": "Priya Raman - UX Consulting",
+      "document_id": "PR-2026-014",
+      "document_date": "2026-06-20",
+      "due_date": "2026-07-04",
+      "line_items": [
+        {"description": "UX audit & research", "quantity": 12, "unit_price": 95.00, "line_total": 1140.00},
+        {"description": "Wireframe design", "quantity": 18, "unit_price": 95.00, "line_total": 1710.00},
+        {"description": "Client review sessions", "quantity": 4, "unit_price": 95.00, "line_total": 380.00}
+      ],
+      "subtotal": 3230.00,
+      "tax_amount": null,
+      "total": 3230.00
+    },
+    "validation": {"valid": true, "issues": []}
+  },
+  {
+    "source_file": "receipt_diner.pdf",
+    "extracted_data": {
+      "document_type": "receipt",
+      "vendor_name": "Blue Plate Diner",
+      "document_id": "4471",
+      "document_date": "2026-06-21",
+      "due_date": null,
+      "line_items": [
+        {"description": "Grilled Salmon", "quantity": 1, "unit_price": 24.00, "line_total": 24.00},
+        {"description": "Caesar Salad", "quantity": 1, "unit_price": 11.50, "line_total": 11.50},
+        {"description": "Iced Tea", "quantity": 2, "unit_price": 3.25, "line_total": 6.50},
+        {"description": "Cheesecake Slice", "quantity": 1, "unit_price": 8.00, "line_total": 8.00}
+      ],
+      "subtotal": 50.00,
+      "tax_amount": 0.00,
+      "total": 50.00
+    },
+    "validation": {"valid": true, "issues": []}
+  },
+  {
+    "source_file": "invoice_utility.pdf",
+    "extracted_data": {
+      "document_type": "invoice",
+      "vendor_name": "Cascade Power & Light",
+      "document_id": "7734-991",
+      "document_date": "2026-06-01",
+      "due_date": "2026-06-21",
+      "line_items": [
+        {"description": "Electricity usage, May 2026 (1,240 kWh @ $0.1129/kWh)", "quantity": 1, "unit_price": 140.00, "line_total": 140.00}
+      ],
+      "subtotal": 140.00,
+      "tax_amount": 7.00,
+      "total": 147.00
+    },
+    "validation": {"valid": true, "issues": []}
+  },
+  {
+    "source_file": "invoice_saas.pdf",
+    "extracted_data": {
+      "document_type": "invoice",
+      "vendor_name": "Ledgerly Inc.",
+      "document_id": "LG-99213",
+      "document_date": "2026-06-15",
+      "due_date": "2026-06-29",
+      "line_items": [
+        {"description": "Ledgerly Pro Plan - Annual Subscription (12 mo)", "quantity": 1, "unit_price": 1188.00, "line_total": 1188.00}
+      ],
+      "subtotal": 1188.00,
+      "tax_amount": null,
+      "total": 1188.00
+    },
+    "validation": {"valid": true, "issues": []}
+  },
+  {
+    "source_file": "receipt_hardware.pdf",
+    "extracted_data": {
+      "document_type": "receipt",
+      "vendor_name": "Buildright Hardware",
+      "document_id": "552017",
+      "document_date": "2026-06-18",
+      "due_date": null,
+      "line_items": [
+        {"description": "Cordless Drill Kit", "quantity": 1, "unit_price": 79.99, "line_total": 79.99},
+        {"description": "Drill Bit Set 20pc", "quantity": 1, "unit_price": 14.99, "line_total": 14.99},
+        {"description": "Wood Screws 1in (100ct)", "quantity": 2, "unit_price": 5.49, "line_total": 10.98},
+        {"description": "Safety Glasses", "quantity": 1, "unit_price": 6.25, "line_total": 6.25}
+      ],
+      "subtotal": 112.21,
+      "tax_amount": 8.19,
+      "total": 120.40
+    },
+    "validation": {"valid": true, "issues": []}
+  }
+]

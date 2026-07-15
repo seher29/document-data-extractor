@@ -1,0 +1,43 @@
+{
+  "source_file": "receipt_hardware.pdf",
+  "extracted_data": {
+    "document_type": "receipt",
+    "vendor_name": "BUILDRIGHT HARDWARE",
+    "document_id": "552017",
+    "document_date": "2026-06-18",
+    "due_date": null,
+    "line_items": [
+      {
+        "description": "Cordless Drill Kit",
+        "quantity": 1,
+        "unit_price": 79.99,
+        "line_total": 79.99
+      },
+      {
+        "description": "Drill Bit Set 20pc",
+        "quantity": 1,
+        "unit_price": 14.99,
+        "line_total": 14.99
+      },
+      {
+        "description": "Wood Screws 1in (100ct)",
+        "quantity": 2,
+        "unit_price": 5.49,
+        "line_total": 10.98
+      },
+      {
+        "description": "Safety Glasses",
+        "quantity": 1,
+        "unit_price": 6.25,
+        "line_total": 6.25
+      }
+    ],
+    "subtotal": 112.21,
+    "tax_amount": 8.19,
+    "total": 120.4
+  },
+  "validation": {
+    "valid": true,
+    "issues": []
+  }
+}

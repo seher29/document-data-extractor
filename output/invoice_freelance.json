@@ -1,0 +1,37 @@
+{
+  "source_file": "invoice_freelance.pdf",
+  "extracted_data": {
+    "document_type": "invoice",
+    "vendor_name": "Priya Raman",
+    "document_id": "PR-2026-014",
+    "document_date": "2026-06-20",
+    "due_date": "2026-07-04",
+    "line_items": [
+      {
+        "description": "UX audit & research",
+        "quantity": 12,
+        "unit_price": 95.0,
+        "line_total": 1140.0
+      },
+      {
+        "description": "Wireframe design",
+        "quantity": 18,
+        "unit_price": 95.0,
+        "line_total": 1710.0
+      },
+      {
+        "description": "Client review sessions",
+        "quantity": 4,
+        "unit_price": 95.0,
+        "line_total": 380.0
+      }
+    ],
+    "subtotal": null,
+    "tax_amount": null,
+    "total": 3230.0
+  },
+  "validation": {
+    "valid": true,
+    "issues": []
+  }
+}

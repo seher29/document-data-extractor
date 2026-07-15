@@ -1,0 +1,49 @@
+{
+  "source_file": "receipt_cornerstore.pdf",
+  "extracted_data": {
+    "document_type": "receipt",
+    "vendor_name": "CORNERSTORE MARKET",
+    "document_id": "88213",
+    "document_date": "2026-06-07",
+    "due_date": null,
+    "line_items": [
+      {
+        "description": "Bottled Water 1L",
+        "quantity": 2,
+        "unit_price": 1.25,
+        "line_total": 2.5
+      },
+      {
+        "description": "Whole Wheat Bread",
+        "quantity": 1,
+        "unit_price": 3.49,
+        "line_total": 3.49
+      },
+      {
+        "description": "Bananas (lb)",
+        "quantity": 3,
+        "unit_price": 0.59,
+        "line_total": 1.77
+      },
+      {
+        "description": "Peanut Butter Jar",
+        "quantity": 1,
+        "unit_price": 4.99,
+        "line_total": 4.99
+      },
+      {
+        "description": "Paper Towels 2pk",
+        "quantity": 1,
+        "unit_price": 5.75,
+        "line_total": 5.75
+      }
+    ],
+    "subtotal": null,
+    "tax_amount": null,
+    "total": 18.5
+  },
+  "validation": {
+    "valid": true,
+    "issues": []
+  }
+}

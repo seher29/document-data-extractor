@@ -1,0 +1,37 @@
+{
+  "source_file": "po_northwind.pdf",
+  "extracted_data": {
+    "document_type": "purchase_order",
+    "vendor_name": "Pacific Timber Supply",
+    "document_id": "PO-88291",
+    "document_date": "2026-05-11",
+    "due_date": null,
+    "line_items": [
+      {
+        "description": "Kiln-Dried Pine 2x4x8",
+        "quantity": 200,
+        "unit_price": 4.15,
+        "line_total": 830.0
+      },
+      {
+        "description": "Plywood Sheet 3/4in",
+        "quantity": 60,
+        "unit_price": 28.5,
+        "line_total": 1710.0
+      },
+      {
+        "description": "Deck Screws, 5lb box",
+        "quantity": 25,
+        "unit_price": 14.25,
+        "line_total": 356.25
+      }
+    ],
+    "subtotal": 2896.25,
+    "tax_amount": 246.18,
+    "total": 3142.43
+  },
+  "validation": {
+    "valid": true,
+    "issues": []
+  }
+}
