@@ -13,6 +13,21 @@ plain Python (not the AI) to catch extraction errors.**
 > separate systems have to agree before a document is marked valid.
 
 ---
+---
+
+## Screenshots
+
+**Running the extractor:**
+![main.py run](assets/run-main.png)
+
+**Test suite passing:**
+![pytest run](assets/run-tests.png)
+
+**Sample extracted output:**
+![sample output](assets/sample-output.png)
+
+---
+
 
 ## Quick start
 
