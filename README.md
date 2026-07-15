@@ -18,7 +18,7 @@ plain Python (not the AI) to catch extraction errors.**
 ## Screenshots
 
 **Running the extractor:**
-![main.py run](assets/run-main.png)
+![main.py run](assets/run_main.png)
 
 **Test suite passing:**
 ![pytest run](assets/run-tests.png)
