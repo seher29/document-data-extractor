@@ -148,6 +148,19 @@ def main():
 
     client = Groq(api_key=api_key)
 
+    # if len(sys.argv) > 1:
+    #     files = [sys.argv[1]]
+    # else:
+    #     files = sorted(glob.glob("sample_documents/*.pdf"))
+    
+    if len(sys.argv) > 1 and sys.argv[1] in ("-h", "--help"):
+        print("Usage:")
+        print("  python main.py                          Process every PDF in sample_documents/")
+        print("  python main.py path/to/one_file.pdf      Process a single file")
+        print("  python main.py --help                    Show this message")
+        print("\nOutputs JSON into output/")
+        sys.exit(0)
+
     if len(sys.argv) > 1:
         files = [sys.argv[1]]
     else:
