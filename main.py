@@ -162,10 +162,23 @@ def main():
             json.dump(result, f, indent=2)
         print(f"  Wrote {out_path}")
 
+    # combined_path = "output/all_results.json"
+    # with open(combined_path, "w") as f:
+    #     json.dump(results, f, indent=2)
+    # print(f"\nDone. {len(results)} document(s) processed. Combined output: {combined_path}")
+    
     combined_path = "output/all_results.json"
     with open(combined_path, "w") as f:
         json.dump(results, f, indent=2)
+
+    passed = sum(1 for r in results if r["validation"]["valid"])
+    failed = len(results) - passed
+
     print(f"\nDone. {len(results)} document(s) processed. Combined output: {combined_path}")
+    print(f"\nSummary:")
+    print(f"  Processed:          {len(results)} documents")
+    print(f"  Passed validation:  {passed}")
+    print(f"  Failed validation:  {failed}")
 
 
 if __name__ == "__main__":
