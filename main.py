@@ -119,10 +119,17 @@ def process_file(client, path: str) -> dict:
     extracted = call_llm_for_extraction(client, document_text)
     validation_result = validate_extraction(extracted)
 
+    # if validation_result["valid"]:
+    #     print(f"  Validation: PASSED")
+    # else:
+    #     print(f"  Validation: {len(validation_result['issues'])} issue(s) found:")
+    #     for issue in validation_result["issues"]:
+    #         print(f"    - {issue}")
+    
     if validation_result["valid"]:
         print(f"  Validation: PASSED")
     else:
-        print(f"  Validation: {len(validation_result['issues'])} issue(s) found:")
+        print(f"  Validation FAILED:")
         for issue in validation_result["issues"]:
             print(f"    - {issue}")
 
