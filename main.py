@@ -70,16 +70,32 @@ def extract_text_from_pdf(path: str) -> str:
     return "\n".join(text_parts)
 
 
+# def call_llm_for_extraction(client, document_text: str) -> dict:
+#     response = client.chat.completions.create(
+#         model=MODEL,
+#         temperature=0,
+#         response_format={"type": "json_object"},
+#         messages=[
+#             {"role": "system", "content": EXTRACTION_SCHEMA_PROMPT},
+#             {"role": "user", "content": f"Document text:\n\n{document_text}"},
+#         ],
+#     )
+#     raw = response.choices[0].message.content.strip()
+
 def call_llm_for_extraction(client, document_text: str) -> dict:
-    response = client.chat.completions.create(
-        model=MODEL,
-        temperature=0,
-        response_format={"type": "json_object"},
-        messages=[
-            {"role": "system", "content": EXTRACTION_SCHEMA_PROMPT},
-            {"role": "user", "content": f"Document text:\n\n{document_text}"},
-        ],
-    )
+    try:
+        response = client.chat.completions.create(
+            model=MODEL,
+            temperature=0,
+            response_format={"type": "json_object"},
+            messages=[
+                {"role": "system", "content": EXTRACTION_SCHEMA_PROMPT},
+                {"role": "user", "content": f"Document text:\n\n{document_text}"},
+            ],
+        )
+    except Exception as e:
+        print(f"  Groq API error: {e}")
+        return {}
     raw = response.choices[0].message.content.strip()
 
     # Defensive cleanup: strip markdown fences if the model adds them anyway.
